@@ -1,93 +1,49 @@
-Bike Buyers Analysis Project
+# Bike Buyers Analysis Excel Project
 
-This project analyzes a dataset of 1,000 bike buyers, providing insights into customer demographics, purchasing behavior, and age distribution. The project includes data cleaning, creating new fields, pivot tables, and an interactive dashboard.
+This project contains an **Excel-based analysis** of bike buyers and sales data. It includes cleaned data, pivot tables, dashboards, and interactive slicers to help visualize sales insights.
 
-Project Structure
+---
 
-The project contains the following main Excel files and folders:
+## Project Structure
 
-Bike_Buyers.xlsx: The original dataset.
+- **Working Sheet:** Cleaned data with added column `Age Brackets` for age categorization (Middle Age, Old, etc.)
+- **Pivot Table:** Multiple pivot tables summarizing sales, age groups, and other insights.
+- **Dashboard:** Interactive dashboards displaying insights from pivot tables.
+- **Slicers:** Allows filtering dashboards and pivot tables dynamically.
 
-Working Sheet.xlsx: The cleaned dataset after removing errors and adding new fields.
+---
 
-Age Brackets Column: A new column added to categorize customers based on their age (Adolescent, Young Adult, Middle Age, Older Adult).
+## Features
 
-Pivot Table Folder: Contains all pivot tables used for the dashboard.
+- Cleaned and structured bike buyers data
+- Age Bracket categorization for better analysis
+- Pivot tables for summarizing data
+- Interactive dashboard for visual insights
+- Slicers for easy filtering
 
-Dashboard Folder: Contains the final dashboard and interactive slicers.
+---
 
-Data Cleaning and Preparation
+## How to Use
 
-Inside the Working Sheet:
+1. Open the Excel file in the **Working Sheet** folder.
+2. Explore the pivot tables and dashboards in the **Pivot Table** and **Dashboard** folders.
+3. Use the **slicers** to filter data dynamically.
+4. Gain insights into bike sales by age bracket and other metrics.
 
-Removed invalid or duplicated rows.
+---
 
-Cleaned missing data.
+## Technologies Used
 
-Standardized formatting.
+- Microsoft Excel
+- Pivot Tables
+- Dashboard Visualizations
+- Slicers
 
-Added a new calculated column called Age Brackets, which classifies each customer based on age groups to improve segmentation and analysis.
+---
 
-Pivot Tables
+## Note
 
-A separate folder was created to store all pivot tables. These tables analyze:
+This project is purely **Excel-based** and demonstrates data cleaning, analysis, and visualization techniques.
 
-Purchases by gender
+⚖️ License: This project is licensed under the MIT License. You are free to use, copy, modify, and distribute the work under the terms of this license.
 
-Purchases by income
-
-Purchases by marital status
-
-Purchases by age bracket
-
-Region, commute distance, and other customer attributes
-
-These pivot tables serve as the foundation for building the dashboard.
-
-Dashboard
-
-The Dashboard folder contains an interactive Excel dashboard that includes:
-
-Dynamic charts
-
-KPIs and summaries
-
-Customer segmentation visuals
-
-Purchase trends
-
-Slicers
-
-The dashboard also includes slicers that allow you to filter and update all visuals instantly. The slicers include:
-
-Gender
-
-Age Bracket
-
-Region
-
-Education
-
-Marital Status
-
-Project Goal
-
-The main purpose of this project is to:
-
-Understand customer demographics and purchasing patterns
-
-Identify key factors that influence bike buying decisions
-
-Create a clean, interactive dashboard for data exploration
-
-Apply real-world Excel data analysis techniques
-
-Tools Used
-
-Microsoft Excel
-
-Pivot Tables & Pivot Charts
-
-Data Cleaning Techniques
-
-Slicers and Dashboard Development
